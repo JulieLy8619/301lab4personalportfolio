@@ -1,0 +1,23 @@
+{
+  "name": "301lab4personalportfolio",
+  "version": "1.0.0",
+  "description": "301 portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulieLy8619/301lab4personalportfolio.git"
+  },
+  "author": "Julie Ly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JulieLy8619/301lab4personalportfolio/issues"
+  },
+  "homepage": "https://github.com/JulieLy8619/301lab4personalportfolio#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
