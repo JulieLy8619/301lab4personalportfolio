@@ -29,4 +29,313 @@ br.clear {
 }
 
 /* Container */
+.container {
+  margin: 0 auto;
+  max-width: 100%;
+  width: 1400px;
+}
+
+@media screen and (min-width: 961px) and (max-width: 1880px) {
+
+  .container {
+    width: 1200px;
+  }
+
+}
+@media screen and (min-width: 961px) and (max-width: 1620px) {
+
+  .container {
+    width: 960px;
+  }
+
+}
+
+@media screen and (min-width: 961px) and (max-width: 1320px) {
+
+  .container {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 960px) {
+
+  .container {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 736px) {
+
+  .container {
+    width: 100%;
+  }
+
+}
+
+/* Row */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-items: stretch;
+}
+
+.row > * {
+  box-sizing: border-box;
+}
+
+.row.gtr-uniform > * > :last-child {
+  margin-bottom: 0;
+}
+
+.row.aln-left {
+  justify-content: flex-start;
+}
+
+.row.aln-center {
+  justify-content: center;
+}
+
+.row.aln-right {
+  justify-content: flex-end;
+}
+
+.row.aln-top {
+  align-items: flex-start;
+}
+
+.row.aln-middle {
+  align-items: center;
+}
+
+.row.aln-bottom {
+  align-items: flex-end;
+}
+
+.row {
+  margin-top: -40px;
+  margin-left: -40px;
+}
+.row > * {
+  padding: 40px 0 0 40px;
+}
+
+@media screen and (min-width: 961px) and (max-width: 1880px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: stretch;
+  }
+
+  .row > * {
+    box-sizing: border-box;
+  }
+
+
+  .row {
+    margin-top: -40px;
+    margin-left: -40px;
+  }
+
+  .row > * {
+    padding: 40px 0 0 40px;
+  }
+}
+
+@media screen and (min-width: 961px) and (max-width: 1620px) {
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-items: stretch;
+}
+
+  .row > * {
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (min-width: 961px) and (max-width: 1320px) {
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: stretch;
+  }
+
+    .row > * {
+      box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 960px) {
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: stretch;
+  }
+
+    .row > * {
+      box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 736px) {
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: stretch;
+  }
+
+    .row > * {
+      box-sizing: border-box;
+    }
+}
+
+/* Sections/Article */
+
+section, article {
+  margin-bottom: 3em;
+}
+
+/* Image */
+
+.image {
+  display: inline-block;
+  border: 0;
+}
+
+  .image img {
+    display: block;
+    width: 100%;
+  }
+
+/* List */
+
+ul {
+  list-style: disc;
+  padding-left: 1em;
+}
+
+  ul li {
+    padding-left: 0.5em;
+  }
+
+ol {
+  list-style: decimal;
+  padding-left: 1.25em;
+}
+
+  ol li {
+    padding-left: 0.25em;
+  }
+    
+/* Icons */
+
+/* Form */
+form label {
+  display: block;
+  text-align: left;
+  margin-bottom: 0.5em;
+}
+
+/* Table */
+table {
+  width: 100%;
+  text-align: left;
+}
+table td {
+  padding: 0.5em 1em 0.5em 1em;
+}
+
+/* Button */
+
+/* Item */
+
+/* Icons */
+
+/* Header */
+#header {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -moz-justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+  background: #222629 url("images/overlay.png");
+  box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
+  color: #fff;
+  height: 100%;
+  left: 0;
+  overflow-y: auto;
+  position: fixed;
+  text-align: right;
+  top: 0;
+  width: 375px;
+}
+
+#logo {
+  position: relative;
+  margin: 1.75em 1.5em 1.5em 1.5em;
+  min-height: 48px;
+  cursor: default;
+}
+
+/* Footer */
+
+#footer {
+  margin-left: 375px;
+  text-align: center;
+  background-color: #dce3e2;
+  padding: 3em 0 4em 0;
+  box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
+  font-size: 0.8em;
+}
+
+/* Main */
+#main {
+  margin-left: 375px;
+}
+
+/* Wide */
+@media screen and (min-width: 961px) and (max-width: 1880px) {
+
+  /* Basic */
+
+  /* Header */
+
+    #header {
+      width: 300px;
+    }
+
+  /* Footer */
+
+    #footer {
+      margin-left: 300px;
+    }
+
+  /* Main */
+
+    #main {
+      margin-left: 300px;
+    }
+
+}
+
+/* Narrower */
 
