@@ -90,7 +90,7 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 }
 
 a:hover {
-  color: #E27689;
+  color: rgb(204, 2, 39);
   border-bottom-color: rgba(255, 255, 255, 0);
 }
 
