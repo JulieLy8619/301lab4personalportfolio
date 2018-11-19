@@ -135,7 +135,7 @@ Number and name of feature: Part 1: Feature #1: Add functionality
 
 Estimate of time needed to complete: 1.5 hrs
 Day 1: 11-19-18
-Start time: 12:00
+Start time: 12:30
 Finish time: 
 
 Actual time needed to complete:
