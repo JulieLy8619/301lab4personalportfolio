@@ -136,6 +136,8 @@ Number and name of feature: Part 1: Feature #1: Add functionality
 Estimate of time needed to complete: 1.5 hrs
 Day 1: 11-19-18
 Start time: 12:30
+Finish time: 1:30
+Start time: 
 Finish time: 
 
 Actual time needed to complete:
@@ -143,6 +145,7 @@ Actual time needed to complete:
 -------------------------------
 
 Number and name of feature: Part 2: Feature #1: Responsive design
+NOTE: this will be completed in the lab one repo
 
 Estimate of time needed to complete: 3 hrs
 Day 1: 
