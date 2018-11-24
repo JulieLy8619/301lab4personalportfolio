@@ -154,5 +154,6 @@ Finish time:
 
 Actual time needed to complete:
 
+REMINDER: this is deployed on heroku, git push heroku master
 
 
