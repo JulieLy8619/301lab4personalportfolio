@@ -66,6 +66,14 @@ header {
     margin: 1em 0 0 0;
   }
 
+.topcontainer {
+  z-index: 5;
+  position: relative;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 1400px;
+}
+
 footer {
   margin: 2em 0 0 0;
 }
@@ -298,7 +306,7 @@ blockquote {
   padding-top: 80px;
 }
 
-@media screen and (min-width: 961px) and (max-width: 1880px) {
+@media screen and (min-width: 737px) and (max-width: 1880px) {
 
   .row.gtr-uniform > * > :last-child {
     margin-bottom: 0;
@@ -521,7 +529,7 @@ blockquote {
         }
 }
 
-@media screen and (min-width: 961px) and (max-width: 1620px) {
+@media screen and (min-width: 737px) and (max-width: 1620px) {
   .row.gtr-uniform > * > :last-child {
     margin-bottom: 0;
   }
@@ -753,7 +761,7 @@ blockquote {
       }
 }
 
-@media screen and (min-width: 961px) and (max-width: 1320px) {
+@media screen and (min-width: 737px) and (max-width: 1320px) {
   .row.gtr-uniform > * > :last-child {
     margin-bottom: 0;
   }
@@ -985,7 +993,7 @@ blockquote {
       }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 737px) {
 
   .row.gtr-uniform > * > :last-child {
     margin-bottom: 0;
@@ -1797,6 +1805,7 @@ button,
             #nav ul li a.active span:before {
               color: #720418;
             }
+            
 
 /* Footer */
 #footer .copyright {
@@ -1876,7 +1885,7 @@ button,
 
   /* Wide */
 
-  @media screen and (min-width: 961px) and (max-width: 1880px) {
+  @media screen and (min-width: 737px) and (max-width: 1880px) {
 
 		/* Basic */
 
@@ -1894,7 +1903,7 @@ button,
 
   /* Normal */
 
-	@media screen and (min-width: 961px) and (max-width: 1620px) {
+	@media screen and (min-width: 737px) and (max-width: 1620px) {
 
 		/* Main */
 
@@ -1910,7 +1919,7 @@ button,
   
   /* Narrow */
 
-	@media screen and (min-width: 961px) and (max-width: 1320px) {
+	@media screen and (min-width: 737px) and (max-width: 1320px) {
 
 		/* Basic */
 
@@ -1981,7 +1990,7 @@ button,
   display: none;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 737px) {
 
   /* Basic */
 
@@ -2169,8 +2178,6 @@ button,
 /* Mobile */
 
 @media screen and (max-width: 736px) {
-  /* if move parts of this media chuck, need to copy this header with it so they know it goes with this media requirements */
-
   /* Basic */
 
     body, input, textarea, select {
@@ -2224,7 +2231,9 @@ button,
 
 }
 
-#myCarousel {
+/* #myCarousel {
   width: 700px;
   height: 300px;
-}
+} */
+
+

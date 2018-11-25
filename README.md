@@ -133,26 +133,25 @@ How long you spent working on this assignment
 
 Number and name of feature: Part 1: Feature #1: Add functionality
 
-Estimate of time needed to complete: 1.5 hrs
+Estimate of time needed to complete: 4 hrs
 Day 1: 11-19-18
 Start time: 12:30
 Finish time: 1:30
+Date: 11-24-18
+Start time: 2:00
+Finish time: 
 Start time: 
 Finish time: 
-
 Actual time needed to complete:
+NOTE for grader: I assumed tablet size was 737 px to 960 px
 
 -------------------------------
 
-Number and name of feature: Part 2: Feature #1: Responsive design
-NOTE: this will be completed in the lab one repo
-
-Estimate of time needed to complete: 3 hrs
-Day 1: 
-Start time: 
-Finish time: 
-
-Actual time needed to complete:
 
 
+REMINDER: this is deployed on heroku, git push heroku master
 
+
+-------------------------------
+# Acknowledgments
+image carousel: code guideline came from https://www.w3schools.com/howto/howto_js_slideshow.asp
