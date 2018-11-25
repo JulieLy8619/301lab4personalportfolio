@@ -7,6 +7,11 @@
   margin: auto;
 }
 
+.carouselItem {
+  width: 75%;
+  height: 75%;
+}
+
 /* Hide the images by default */
 .mySlides {
   display: none;
