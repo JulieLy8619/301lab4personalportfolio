@@ -66,6 +66,14 @@ header {
     margin: 1em 0 0 0;
   }
 
+.topcontainer {
+  z-index: 5;
+  position: relative;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 1400px;
+}
+
 footer {
   margin: 2em 0 0 0;
 }

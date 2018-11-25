@@ -30,6 +30,8 @@ br.clear {
 
 /* Container */
 .container {
+  /* position: absolute; */
+  /* z-index: 10; */
   margin: 0 auto;
   max-width: 100%;
   width: 1400px;
