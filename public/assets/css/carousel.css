@@ -1,16 +1,14 @@
 * {box-sizing:border-box}
 
-#header .top {
+/* #header .top {
   position: relative;
-}
+} */
 
 /* Slideshow container */
 .slideshow-container {
-  /* max-width: 1000px; */
-  /* z-index: 1; */
   max-width: 100%;
   max-height: 100%;
-  position: relative;
+  position: absolute;
   margin: auto;
 }
 .topcontainer {
@@ -35,7 +33,6 @@
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
-  /* position: absolute; */
   top: 50%;
   width: auto;
   margin-top: -22px;
@@ -113,14 +110,13 @@
   to {opacity: 1}
 }
 
+/* mobile/hamburger view */
 @media screen and (max-width: 736px) {
   #header .top {
     position: relative;
   }
   /* Slideshow container */
   .slideshow-container {
-    /* max-width: 1000px; */
-    /* z-index: 1; */
     max-width: 100%;
     max-height: 75%;
     position: relative;
