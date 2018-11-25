@@ -139,10 +139,8 @@ Start time: 12:30
 Finish time: 1:30
 Date: 11-24-18
 Start time: 2:00
-Finish time: 
-Start time: 
-Finish time: 
-Actual time needed to complete:
+Finish time: 8:15
+Actual time needed to complete: 7.25 hrs
 NOTE for grader: I assumed tablet size was 737 px to 960 px
 
 -------------------------------
